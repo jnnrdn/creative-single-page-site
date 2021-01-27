@@ -12,15 +12,23 @@
 </head>
   <body>
     <header>
-      <img src="/assets/desktop/logo.svg" alt="logo" />
-      <nav>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#" class="button button--2">Schedule a call</a></li>
-        </ul>
-      </nav>
+      <div class="identity">
+        <img src="/assets/desktop/logo.svg" alt="logo" />
+      </div>
+
+      <div class="nav">
+        <nav id="myNav">
+          <a href="#">About</a>
+          <a href="#">Service</a>
+          <a href="#">Projects</a>
+          <a href="#" class="button button--2">Schedule a call</a>
+        </nav>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="hamburger"></i>
+        </a>
+      </div>
+
     </header>
 
     <section class="hero">
