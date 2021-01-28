@@ -1,6 +1,6 @@
 .nav {
-    overflow: hidden;
     position: relative;
+    box-sizing: border-box;
 
     #myNav {
         display: none;
@@ -8,11 +8,16 @@
         padding: 28px;
         box-sizing: border-box;
         text-align: center;
-        z-index: 999999;
+        width: 252px;
+        min-height: 292px;
+        position: absolute;
+        top: 56px;
+        right: 0;
     }
 
     a {
         display: block;
+        margin: 0 auto;
         color: white;
         padding: 12px 0;
         text-decoration: none;
@@ -28,4 +33,8 @@ a.icon {
     background-image: url('../assets/mobile/icon-hamburger.svg');
     background-repeat: no-repeat;
     box-sizing: border-box;
+
+    .open + & {
+        background-image: url('../assets/mobile/icon-cross.svg');
+    }
 }
