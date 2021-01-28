@@ -13,13 +13,21 @@
     }
 }
 
-@mixin button($color) {
-    background: $color;
-    &:hover {
-        background:darken($bg,8%);
-        transition: all 0.3s ease;
+@mixin button( $style: 1 ) {
+
+    color: $white;
+
+    @if $style == 1 {
+        background-color: $red;
+        padding: 26px 35px;
     }
-    &:active {
-        background:darken($bg,25%);
-    } 
+
+    @if $style == 2 {
+        background-color: $black;
+    }
+
+    @if $style == 3 {
+        background-color: inherit;
+        color: $red;
+    }
 }

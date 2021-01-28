@@ -1,0 +1,7 @@
+.button {   
+
+    .nav & {
+        @include button(1);
+        font-size: 16px;
+    }
+}

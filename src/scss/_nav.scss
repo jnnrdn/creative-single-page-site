@@ -14,14 +14,25 @@
         top: 56px;
         right: 0;
     }
+}
 
+nav {
     a {
         display: block;
         margin: 0 auto;
         color: white;
-        padding: 12px 0;
+        margin: 24px 0;
+        line-height: 32px;
         text-decoration: none;
         display: block;
+
+        &:first-child {
+            margin-top: 4px;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 }
 
