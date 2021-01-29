@@ -16,10 +16,13 @@
 @mixin button( $style: 1 ) {
 
     color: $white;
+    font-size: $text-regular;
+    font-weight: 800;
+    text-decoration: none;
 
     @if $style == 1 {
         background-color: $red;
-        padding: 26px 35px;
+        padding: 25px 40px;
     }
 
     @if $style == 2 {

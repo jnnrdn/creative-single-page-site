@@ -1,0 +1,26 @@
+.hero {
+
+    padding-bottom: 97px;
+
+    &__image {
+        background-image: url(../assets/mobile/image-hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+        margin-bottom: 65px;
+    }
+
+    &__content {
+        max-width: $mobile-max-width;
+        margin: 0 auto;
+
+        p {
+            margin-bottom: 45px;
+        }
+    }
+
+    &__header {
+        font-size: 40px;
+        line-height: 1;
+    }
+}
