@@ -32,5 +32,7 @@
     @if $style == 3 {
         background-color: inherit;
         color: $red;
+        padding-bottom: 10px;
+        border-bottom: 2px solid $red;
     }
 }

@@ -5,4 +5,11 @@
     &--1 {
         @include button(1);
     }
+    &--2 {
+        @include button(2);
+    }
+    &--3 {
+        @include button(3);
+    }
+    
 }

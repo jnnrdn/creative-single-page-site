@@ -1,0 +1,36 @@
+.about {
+    position: relative;
+    background-color: $black;
+
+    &::before {
+        content: ' ';
+        background-image: url(../assets/desktop/bg-pattern-wave-red.svg);
+        background-size: cover;
+        display: inline-block;
+        position: absolute;
+        width: 63px;
+        height: 29px;
+        top: 185px;
+        left: 24px;
+    }
+
+    &__header {
+        margin-top: 0;
+        font-size: 32px;
+    }
+
+    &__content {
+        padding: 72px 0;
+    }
+
+    &__image {
+        background-image: url(../assets/mobile/image-strategic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+    }
+
+    &__quote {
+        margin: 0 0 40px;
+    }
+}

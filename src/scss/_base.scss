@@ -5,3 +5,28 @@ body {
     font-size: 15px;
     line-height: 25px;
 }
+
+h1 {
+    font-size: $h1-mobile;
+}
+
+h2 {
+    font-size: $h2-mobile;
+    margin-bottom: 32px;
+}
+
+p {
+    font-size: $text-regular-mobile;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.light {
+    color: $white;
+}
+
+.red {
+    color: $red;
+}
