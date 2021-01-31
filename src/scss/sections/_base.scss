@@ -1,4 +1,9 @@
 section {
+
+    h2 {
+        max-width: $mobile-max-width;
+        margin: 0 auto;
+    }
     .content {
         max-width: $mobile-max-width;
         margin: 0 auto;
