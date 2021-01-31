@@ -2,7 +2,41 @@
     padding: 105px 0;
     background-color: $red;
 
-    &__heading {
+    h2 {
         margin-bottom: 75px;
     }
+
+    ol {
+        @include reset-list;
+        margin: 0 auto;
+        counter-reset: li;
+    }
+
+    li {
+        position: relative;
+        box-sizing: border-box;
+        margin-top: 0;
+        margin-left: 16px;
+        margin-bottom: 71px;
+
+        &::before {
+            position: absolute;
+            left: -16px;
+            counter-increment: li;
+            content: counter(li, decimal-leading-zero);
+            color: rgba(255, 255, 255, 0.25);
+            font-size: 80px;
+            font-weight: 800;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    h3 {
+        box-sizing: border-box;
+        padding-top: 12px;
+    }
+
 }
