@@ -1,0 +1,14 @@
+.portfolio {
+
+    &__item {
+
+        background-color: $black;
+        h3 {
+            @include reset-whitespace;
+        }
+    }
+
+    &__content {
+        padding: 64px 24px;
+    }
+}
