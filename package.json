@@ -16,7 +16,9 @@
     "gulp-sourcemaps": "^3.0.0",
     "node-sass": "^5.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1"
+  },
   "scripts": {
     "build": "gulp build"
   }
