@@ -24,6 +24,14 @@ p {
     }
 }
 
+ul, ol {
+    @include reset-list;
+}
+
+figure {
+    @include reset-whitespace;
+}
+
 .light {
     color: $white;
 }
